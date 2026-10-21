@@ -1,0 +1,8 @@
+{
+  "name": "portal-she",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portal SHE: formulir harian, SAP mingguan, pusat data K3 & lingkungan (Supabase + Vercel + Google Drive)",
+  "scripts": { "build": "node tools/build.js" },
+  "engines": { "node": ">=20" }
+}

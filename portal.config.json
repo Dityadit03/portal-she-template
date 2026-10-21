@@ -1,0 +1,19 @@
+{
+  "perusahaan": {
+    "nama": "PT Contoh Abadi",
+    "singkatan": "ABC"
+  },
+  "site": {
+    "nama": "PT Pemilik Site",
+    "singkatan": "PMS"
+  },
+  "footer": "© Tim SHE ABC · Site PMS",
+  "logo": "branding/logo.svg",
+  "sap": {
+    "start": "2026-10-13",
+    "week": 41
+  },
+  "drive": {
+    "root": ""
+  }
+}
