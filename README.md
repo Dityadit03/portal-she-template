@@ -6,13 +6,19 @@ pelanggaran, arsip Google Drive otomatis, serta Google Sheets yang terisi sendir
 
 Pengembang awal: Aditya Tul Iqram.
 
+## Mulai cepat
+
+1. Klik tombol hijau **Use this template** › **Create a new repository** di halaman ini.
+2. Beri nama `portal-she-<singkatan perusahaan>`, pilih **Private**, lalu **Create repository**.
+3. Ikuti langkah di bawah. Semua perubahan (identitas, logo) dilakukan di repository salinan Anda, bukan di sini.
+
 **Panduan lengkap ada di Modul Instalasi.** Ringkasnya:
 
 | Langkah | Di mana | File di paket ini |
 |---|---|---|
 | 1. Database | Supabase › SQL Editor | `supabase/1-install.sql` (ganti email admin dulu) |
 | 2. Google Drive & Sheets | script.google.com | `apps-script/Code.gs` → jalankan `setup()` |
-| 3. Identitas perusahaan | GitHub (edit file) | `portal.config.json`, logo di `branding/` |
+| 3. Salin & isi identitas | GitHub: Use this template, lalu edit file | `portal.config.json`, logo di `branding/` |
 | 4. Online | Vercel (import dari GitHub) | otomatis: `tools/build.js` |
 | 5. Sambungkan sinkron | Supabase › SQL Editor | `supabase/2-setelah-vercel.sql` |
 
